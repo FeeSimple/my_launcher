@@ -1,6 +1,0 @@
-digraph G
-{
-layout="circo";
-"testnet_00\nprod=inita,initb,initc,initd,inite,initf,initg,inith,initi,initj,initk,initl,initm,initn,inito,initp,initq,initr,inits,initt,initu"->"testnet_01\nprod=<none>" [dir="forward"];
-"testnet_01\nprod=<none>"->"testnet_00\nprod=inita,initb,initc,initd,inite,initf,initg,inith,initi,initj,initk,initl,initm,initn,inito,initp,initq,initr,inits,initt,initu" [dir="forward"];
-}

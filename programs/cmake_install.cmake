@@ -1,8 +1,8 @@
-# Install script for directory: /home/trungtt/Work/reference/dyver/eos/programs
+# Install script for directory: /Users/trungtt/Work/reference/dyver/eos-mysql/programs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/usr/local/eosio")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,19 +27,18 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/nodeos/cmake_install.cmake")
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/cleos/cmake_install.cmake")
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/keosd/cmake_install.cmake")
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/eosio-launcher/cmake_install.cmake")
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/eosio-applesedemo/cmake_install.cmake")
-  include("/home/trungtt/Work/reference/dyver/eos/build/programs/eosio-abigen/cmake_install.cmake")
+  include("/Users/trungtt/Work/reference/dyver/eos-mysql/build/programs/nodeos/cmake_install.cmake")
+  include("/Users/trungtt/Work/reference/dyver/eos-mysql/build/programs/cleos/cmake_install.cmake")
+  include("/Users/trungtt/Work/reference/dyver/eos-mysql/build/programs/keosd/cmake_install.cmake")
+  include("/Users/trungtt/Work/reference/dyver/eos-mysql/build/programs/eosio-launcher/cmake_install.cmake")
+  include("/Users/trungtt/Work/reference/dyver/eos-mysql/build/programs/eosio-abigen/cmake_install.cmake")
 
 endif()
 

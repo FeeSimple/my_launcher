@@ -10,7 +10,7 @@
 #define CONFIG_HPP_IN
 
 namespace eosio { namespace launcher { namespace config {
-  constexpr char version_str[] = "2ae61517";
+  constexpr char version_str[] = "6a2014aa";
 }}}
 
 #endif // CONFIG_HPP_IN
